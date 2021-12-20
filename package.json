@@ -1,0 +1,32 @@
+{
+  "name": "dashboard-api",
+  "version": "1.0.0",
+  "description": "Dashboard API",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitriAl/dashboard-api.git"
+  },
+  "keywords": [
+    "dashboard",
+    "api"
+  ],
+  "author": "Dmitri Alexandrow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitriAl/dashboard-api/issues"
+  },
+  "homepage": "https://github.com/DmitriAl/dashboard-api#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
