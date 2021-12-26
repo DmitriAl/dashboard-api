@@ -104,5 +104,8 @@ dist
 .tern-port
 
 # Custom
-dist/
+/dist
 /.clinic
+/.env
+/prisma/dev.db
+/prisma/dev.db-journal
